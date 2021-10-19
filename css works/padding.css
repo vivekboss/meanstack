@@ -1,0 +1,13 @@
+div{
+    background-color: indianred;
+    width: 600px;
+    height: 400px;
+    color: orange;
+}
+p{
+    padding: 50px;
+}
+body{
+    background-image: url(/stock-photo-abstract-background-waves-of-water-of-the-river-and-the-sea-meet-each-other-during-high-tide-and-1607398012.jpg);
+    background-size: cover;
+}

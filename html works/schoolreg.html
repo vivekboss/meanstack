@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .btn{
+            cursor: pointer;
+            border: 1px solid #030303;
+            background-color: transparent;
+            height:30px;
+            width:80px;
+            color: rgb(124, 131, 130);
+            font-size: 0.8em;
+            box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+        }
+        .bttn{
+            cursor: pointer;
+            border: 1px solid #3b3c3d;
+            background-color: rgb(48, 46, 46);
+            height:30px;
+            width:100px;
+            color: rgb(236, 247, 245);
+            font-size: 1.2em;
+            box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <h1>After school</h1>
+        <h1>Club</h1>
+        <h1>Registration</h1>
+        <h1>Form</h1><br>
+        <form action="">
+            <label for="name">Student's Name</label> <br><br>
+            <input type="text" id="name" placeholder="First"> <br> <br>
+            <input type="text" id="name" placeholder="Last"> <br> <br>
+             <label for="dob">Student's Birth Date</label> <br> <br>
+                <input type="date" id="dob" placeholder="MM/DD/YYYY"> <br><br>
+            
+              <label for="i">Student's Grade</label> <br>  <br>
+                <select name="i" id="">
+                    <option value="">Kindergarden</option>
+                    <option value="">LKG</option>
+                    <option value="">UKG</option>
+                    <option value="">Highschool</option>
+                </select> <br> <br>
+
+                <label for="sm">Which sessions will your Student attend?</label><br> <br>
+                    <input type="radio" id="12" name="sm"> <label for="12">Full-Time Before School Care Only</label><br><br>
+                    <input type="radio" id="34" name="sm"> <label for="34">Full-Time After School Care Only</label><br><br>
+                    <input type="radio" id="45" name="sm"> <label for="45">Full-Time Before And After School Care</label> <br> <br>
+                    <input type="radio" id="56" name="sm"> <label for="56">Drop-In Before And/Or After School Care</label> <br> <br>
+
+                <label for="pp">Please indicate any known allergies or special needs</label> <br> <br>
+                    <textarea name="" id="pp" cols="20" rows="5"></textarea> <br> <br>
+
+                <label for="ii">Parent/Guardian Name</label> <br> <br>
+                    <input type="text" id="ii" placeholder="First"> <br><br>
+                    <input type="text" placeholder="Last"> <br><br>
+
+                <label for="phn">Additional Phone Number</label> <br> <br>
+                    <input type="text" id="phn" placeholder="### ### ####"> <br><br>
+                
+                 <label for="mail">Email</label> <br><br>
+                    <input type="email"id="mail"><br><br> 
+
+                 <u><h1>Authorized Pick Up List</h1></u> <br>
+                
+                <fieldset>
+                        <label for="nm">Name</label> <br><br>
+                        <input type="text"id="nm" placeholder="First"><br> <br>
+                        <input type="text"id="" placeholder="Last"> <br> <br>
+                    
+                    <label for="phnn">Phone</label><br><br>
+                        <input type="text" id="phnn" placeholder="### ### ####"> <br><br>
+                    
+                     <label for="rel">Relation to student</label> <br><br>
+                        <input type="text"id="rel"> <br><br>
+                
+                </fieldset> <br>
+                   <button type="submit" class="btn"> 
+                       Add more
+                   </button> <br> <br>
+
+                   <button type="submit" class="bttn">SEND</button>
+
+                    
+                
+        </form>
+            
+    </fieldset>    
+</body>
+</html>

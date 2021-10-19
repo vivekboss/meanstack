@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Caramel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=Lobster&display=swap');
+h1{
+    color: blue;
+}
+body{
+    background-color: black;
+    font-family: 'Grey Qo', cursive;
+}
+.second{
+    color:rgb(33, 131, 222);
+    font-family: 'Grey Qo', cursive;
+}
+.third{
+    color:#3eb2e0;
+    font-family: 'Lobster', cursive;
+}
+.forth{
+    color: lightskyblue;
+    font-family: 'Caramel', cursive;
+}

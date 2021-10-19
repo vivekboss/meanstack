@@ -1,0 +1,14 @@
+.parent{
+    background-color: rgb(170, 121, 121);
+    width: 400px;
+    height: 300px;
+    position: relative;
+}
+.child{
+    background-color: yellowgreen;
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    left: 50%;
+
+}

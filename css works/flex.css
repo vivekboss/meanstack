@@ -1,0 +1,30 @@
+.row{
+    background-color: black;
+    width: 500px;
+    height: 250px;
+    display: flex;
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    justify-content: space-around;
+    /* justify-content: flex-end; */
+    /* justify-content: flex-start; */
+    align-items: center;
+}
+.col{
+    background-color: red;
+    width: 100px;
+    height: 200px;
+    border:solid 2px rgb(49, 41, 41);
+}
+.col1{
+    background-color:rgb(107, 163, 219);
+}
+.col2{
+    background-color:rgb(109, 159, 209);
+}
+.col3{
+    background-color:rgb(51, 120, 211);
+}
+.col4{
+    background-color:rgb(20, 102, 209);
+}

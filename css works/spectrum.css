@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+#hh{
+    color:white;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+
+}
+div{
+    height: 140px;
+    width: 100px;
+    border: solid 1px rgb(104, 95, 95);
+    float:left;
+}
+
+#sp1{
+    margin-left: 371px;
+    background-color: grey;
+    margin-bottom: 10px;
+}
+#sp2{
+    margin-left:10px;
+    background-color: #80ad85;
+    margin-bottom: 10px;
+}
+#sp3{
+    margin-left: 10px;
+    background-color: #5da665;
+    margin-bottom: 10px;
+}
+#sp4{
+    margin-left:10px;
+    background-color: #21cf1b;
+     margin: bottom 10px;
+}
+#sp5{
+    margin-left:10px;
+    background-color: #d8e0d7;
+    margin-bottom: 10px;
+}
+#spp1{
+    margin-left: 260px;
+    background-color:#e48846 ;
+    margin-bottom: 10px;
+}
+#spp2{
+    margin-left: 10px;
+    background-color: #d14f60;
+    margin-bottom: 10px;
+}
+#spp3{
+    margin-left:10px;
+    margin-bottom: 10px;
+    background-color: #816d91;
+}
+#spp4{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    background-color: #60577a;
+}
+#spp5{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    background-color:#4a3c73;
+}
+#spp6{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    background-color: #7c6cad;
+}
+#spp7{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    background-color: #6d6b75;
+    
+}
+#sppp1{
+    margin-left: 150px;
+    background-color: #85d8ed;
+}
+
+#sppp2{
+    margin-left: 10px;
+    background-color: #8fdbb5;
+}
+#sppp3{
+    margin-left: 10px;
+    background-color: #f7b879;
+
+}
+#sppp4{
+    margin-left: 10px;
+    background-color: #a8425a;
+}
+#sppp5{
+    margin-left: 10px;
+    background-color: #47272e;
+}
+#sppp6{
+    margin-left: 10px;
+    background-color: #83ccde;
+}
+#sppp7{
+    margin-left: 10px;
+    background-color: #598f7f;
+}
+#sppp8{
+    margin-left: 10px;
+    background-color: #60598f;
+}
+#sppp9{
+    margin-left: 10px;
+    background-color: #4a3d5c;
+}

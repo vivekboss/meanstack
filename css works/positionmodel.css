@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+}
+.parent{
+    background-color: white;
+    width: 530px;
+    height: 380px;
+    position: relative;
+    margin-top:10%;
+    
+}
+.div1{
+    background-color: yellow;
+    width: 100px;
+    height: 340px;
+    position:absolute;
+    left: 5px;
+    top: 20px;
+}
+.div2{
+    background-color:greenyellow;
+    width: 100px;
+    height:340px;
+    position: absolute;
+    left: 110px;
+    top:20px;
+}
+.div3{
+    background-color:yellowgreen;
+    width: 100px;
+    height: 340px;
+    position: absolute;
+    left: 215px;
+    top: 20px;
+}
+.div4{
+    background-color: green;
+    width: 100px;
+    height: 340px;
+    position: absolute;
+    left: 320px;
+    top:20px;
+}
+.div5{
+    background-color: darkgreen;
+    width: 100px;
+    height: 340px;
+    position: absolute;
+    left: 425px;
+    top: 20px;
+}

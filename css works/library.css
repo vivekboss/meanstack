@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Caramel&display=swap');
+
+#aa{
+    text-align: center;
+    color: cornsilk;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+div{
+    border:solid rgb(0, 0, 0);
+    width: 309px;
+    height: 320px;;
+    float: left;
+    background-color: rgb(150, 164, 165);
+    text-align:center;
+}
+img{
+    width:39% ;
+    height:29%;
+}
+h2{
+    color: rgb(35, 40, 41);
+}
+h3{
+    color: dimgrey;
+}
+p{
+    font-family: 'Caramel', cursive;
+    font-size:larger;
+}
+#id5{
+    margin-top:60px;
+}
+#id6{
+    margin-top: 60px;
+}
+#id7{
+    margin-top: 60px;
+}
+#id8{
+    margin-top: 60px;
+}

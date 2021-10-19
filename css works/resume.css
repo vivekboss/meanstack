@@ -1,0 +1,184 @@
+*{
+    margin: 0%;
+    padding:0%;
+    box-sizing: border-box ;
+}
+.print-area{
+    width:101% ;
+    height: 20px auto;
+   
+}
+.print-area .header{
+    width: 101%;
+    height: 150px;
+    background-color: rgb(53, 52, 52);
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.header img{
+    margin-left: 28px;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: 70px;
+    border: 8px solid rgb(76, 71, 71);
+    box-shadow: 3px 3px 10px rgba(0,0,0,.5);
+    cursor: pointer;
+    transition: .5s;
+    user-select: none;
+    filter: grayscale(100%);
+}
+.header img:hover{
+    filter: grayscale(0%);
+    transform: scale(1.05);
+    box-shadow: 3px 3px 20px rgba(0,0,0,.5) ;
+}
+.headertext{
+    color: white;
+    width: 60%;
+    margin-left: auto;
+}
+.headertext h1{
+    font-size:80px;
+    font-weight: normal;
+}
+.headertext p{
+    font-size: 20px;
+    color: rgb(236, 240, 241);
+    margin-left: 22px;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.left-area{
+    width: 30%;
+    background-color: rgb(104, 102, 102);
+    text-align: center;
+    padding-bottom: 20px;
+}
+.left-area h1{
+    color: rgb(12, 35, 46);
+}
+.left-area .contact{
+    margin-top: 100px;
+    padding: 0 30px;
+}
+.contact h4{
+    font-size: 28px;
+    font-weight: normal;
+     margin:20px 0 ;
+}
+.contact h5{
+    font-size: 18px;
+    margin: 10px 0;
+}
+.contact p{
+    font-size: 16px;
+}
+
+.skills{
+    margin-top: 25px;
+}
+.skills h1{
+    font-size: 30px;
+    font-weight: normal;
+}
+.bars{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 20px,10px;
+    
+}
+.bars .bar p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bar span{
+    display: block;
+    width: 95%;
+    height: 10px;
+    background-color: rgb(175, 166, 166);
+    margin-top: 10px;
+    border-radius: 10px;
+    position: relative;
+    margin-left: 5px;
+    border: black solid 2px;
+}
+
+.bar span::before{
+    position: absolute;
+    content: "";
+    width: 70%;
+    height: 70%;
+    background-color: rgb(15, 75, 102);
+    top: 50%;
+    left: 0%;
+    transform: translateY(-50%);
+}
+.follow{
+    margin-top: 30px;
+    font-size: 17px;
+    font-weight: normal;
+    margin-bottom: 50px;
+    
+}
+.follow p{
+    color: rgb(44, 41, 41);
+    
+}
+.follow h1{
+    font-size: 30px;
+    font-weight: normal;
+}
+.lang h1{
+    font-size: 30px;
+    font-weight: normal;
+}
+.lang p{
+    font-size: 20px;
+    margin-left: -80px;
+    padding:5px;
+}
+
+
+
+
+.right-area{
+    width: 70%;
+    padding: 50px;
+    padding-left: 50px;
+}
+.right-area h1{
+    font-size: 35px;
+    font-weight: normal;
+}
+.right-area h1 span{
+    margin-right:5px;
+    font-size: 35px;
+    color: rgb(131, 125, 125);
+}
+.right-area p{
+    padding-left:60px ;
+    text-align: justify;
+    word-break: break-all;
+    font-size: 17px;
+    color: rgb(75, 71, 71);
+    margin-top: 12px;
+    margin-bottom:30px;
+}
+.right-area h3{
+    font-size:28px;
+    color:rgb(28, 50, 59) ;
+}
+.right-area h1{
+    color: rgb(13, 59, 80);
+}
+body{
+    background-color:rgb(185, 177, 177);
+}
